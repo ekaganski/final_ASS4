@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    user-select: none;
+    font-family: 'Finger Paint', cursive;
+  
+}
+button {
+    width: 50px;
+    height: 30px;
+}
+#canvas{
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    margin-top: 50 px; 
+    position: relative;
+    
+}
+#toolbar{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(41, 243, 192);
+    border: 1px solid black; 
+    font-size: 14px;
+}
+#toolbar div, button{
+    margin-right: 10px;
+   
+}
+#insidecanvas {
+    position: absolute;
+}
+#blue{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}
+
+#canvas .square{
+    width: 2px;
+    height: 2px;
+    background-color: green;
+}
