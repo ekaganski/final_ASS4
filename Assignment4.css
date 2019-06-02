@@ -14,6 +14,7 @@ button {
     width: 500px;
     margin-top: 50 px; 
     position: relative;
+    overflow: hidden;
     
 }
 #toolbar{
